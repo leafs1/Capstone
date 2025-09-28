@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional, Tuple, Union
+import pandas as pd
 
 # ---------- Time helpers ----------
 @staticmethod
@@ -10,3 +11,7 @@ def utc_yesterday_today() -> Tuple[int, int]:
     y0 = (today_utc - timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
     t1 = (today_utc + timedelta(days=0)).replace(hour=23, minute=59, second=59, microsecond=0)
     return int(y0.timestamp()), int(t1.timestamp())
+
+def iso_to_ts(s: str) -> int:
+    """Convert ISO timestamp to unix timestamp"""
+    return int(pd.Timestamp(s, tz="UTC").timestamp())

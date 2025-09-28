@@ -7,6 +7,11 @@ from typing import Optional, Iterable, Dict, Any
 import duckdb
 import pandas as pd
 
+'''
+.tables
+
+SHOW markets;
+'''
 
 @dataclass
 class DuckDBConfig:
