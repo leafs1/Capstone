@@ -23,6 +23,26 @@ def fetchPolymarketData():
     # Get price history for each market
     db = DuckDBController(DuckDBConfig(path="data/research.duckdb"))
 
+    # NEW: upsert markets metadata
+    if not df.empty:
+        try:
+            db.upsert_markets(df)
+        except Exception as e:
+            print(f"Error upserting markets: {e}")
+
+        # NEW: build and upsert tokens table from df['tokens']
+        try:
+            token_rows = []
+            for _, r in df.iterrows():
+                mid = r.get("market_id")
+                for tid in (r.get("tokens") or []):
+                    token_rows.append({"token_id": str(tid), "market_id": str(mid), "outcome": pd.NA})
+            if token_rows:
+                tokens_df = pd.DataFrame(token_rows).drop_duplicates(subset=["token_id"])
+                db.upsert_tokens(tokens_df)
+        except Exception as e:
+            print(f"Error upserting tokens: {e}")
+
     for idx, row in df.iterrows():
         market_id = row.get('market_id')
         theme = row.get('theme', 'unknown')

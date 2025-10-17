@@ -48,18 +48,47 @@ class DuckDBController:
         """)
         self.con.execute("CREATE INDEX IF NOT EXISTS idx_prices_ts ON prices (ts);")
 
+        # Full markets schema (matches upsert_markets)
         self.con.execute("""
         CREATE TABLE IF NOT EXISTS markets (
             market_id     TEXT PRIMARY KEY,
-            question      TEXT
+            question      TEXT,
+            theme         TEXT,
+            slug          TEXT,
+            active        BOOLEAN,
+            closed        BOOLEAN,
+            startDateIso  TEXT,
+            endDateIso    TEXT,
+            closedTime    TEXT,
+            conditionId   TEXT,
+            liquidityNum  DOUBLE,
+            volumeNum     DOUBLE
         );
         """)
+
+        # Full tokens schema (matches upsert_tokens)
         self.con.execute("""
         CREATE TABLE IF NOT EXISTS tokens (
             token_id  TEXT PRIMARY KEY,
-            market_id TEXT
+            market_id TEXT,
+            outcome   TEXT
         );
         """)
+
+        # Lightweight migration for older DBs that might miss columns
+        self._ensure_columns("markets", {
+            "theme": "TEXT", "slug": "TEXT", "active": "BOOLEAN", "closed": "BOOLEAN",
+            "startDateIso": "TEXT", "endDateIso": "TEXT", "closedTime": "TEXT",
+            "conditionId": "TEXT", "liquidityNum": "DOUBLE", "volumeNum": "DOUBLE"
+        })
+        self._ensure_columns("tokens", {"outcome": "TEXT"})
+
+    def _ensure_columns(self, table: str, cols: Dict[str, str]) -> None:
+        info = self.con.execute(f"PRAGMA table_info('{table}')").df()
+        existing = set(info["name"].tolist())
+        for col, typ in cols.items():
+            if col not in existing:
+                self.con.execute(f"ALTER TABLE {table} ADD COLUMN {col} {typ};")
 
     # ---------- Utilities ----------
     @staticmethod
