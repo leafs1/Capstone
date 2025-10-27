@@ -1,0 +1,22 @@
+{
+    "result": {
+        "SPY": [
+            {
+                "d0": "2024-10-25",
+                "d1": "2025-10-25",
+                "s": "15144"
+            }
+        ]
+    },
+    "symbols": [
+        "SPY"
+    ],
+    "stype_in": "raw_symbol",
+    "stype_out": "instrument_id",
+    "start_date": "2024-10-25",
+    "end_date": "2025-10-25",
+    "partial": [],
+    "not_found": [],
+    "message": "OK",
+    "status": 0
+}

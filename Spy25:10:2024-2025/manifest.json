@@ -1,0 +1,2282 @@
+{
+    "job_id": "XNAS-20251026-EPQNU9746N",
+    "files": [
+        {
+            "filename": "condition.json",
+            "size": 31322,
+            "hash": "sha256:47175a075f3a9f85b4768973e68b75c3a353ee60e6c754320e9e1e291d068695",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/condition.json",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/condition.json"
+            }
+        },
+        {
+            "filename": "metadata.json",
+            "size": 688,
+            "hash": "sha256:dc96366cb4e135435e48d016027be6037f46b610e61648bdfad40f45cd264619",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/metadata.json",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/metadata.json"
+            }
+        },
+        {
+            "filename": "symbology.json",
+            "size": 423,
+            "hash": "sha256:eee62ec9a81bacaea0c50ea8e6132580c092c34749f657cd4b99e79edf4bbd00",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/symbology.json",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/symbology.json"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241025.bbo-1m.dbn.zst",
+            "size": 30047,
+            "hash": "sha256:938d3f0d84eb3033e920fc99651d2521c21fec7731e18350fd00f1be6351e46b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241025.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241025.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241028.bbo-1m.dbn.zst",
+            "size": 30325,
+            "hash": "sha256:ab9e4b52225bd7085fbcc0bc50dd8897c0136927d8dbf2480d46f7b115180895",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241028.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241028.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241029.bbo-1m.dbn.zst",
+            "size": 31414,
+            "hash": "sha256:c7e790e98bdf65aa7255d7bbd12bec80ee0c69cf11035dde42d93e06bf16cdb4",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241029.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241029.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241030.bbo-1m.dbn.zst",
+            "size": 31811,
+            "hash": "sha256:13eff3d010fc4c9babdaf1d6c575f92c662426788d7bfcf57ba45d0198f7785b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241030.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241030.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241031.bbo-1m.dbn.zst",
+            "size": 33545,
+            "hash": "sha256:f66e025908ad139a454a17cdae9dd29d5bb20c4ca016dafd60ae5a8eff5079f5",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241031.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241031.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241101.bbo-1m.dbn.zst",
+            "size": 29394,
+            "hash": "sha256:a3a6fc2f9201b5f679876e8ef9b6812e08d88060b341fc796deadc7a43f25091",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241101.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241101.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241104.bbo-1m.dbn.zst",
+            "size": 29894,
+            "hash": "sha256:31e02a3e8ca6c3f3b57797e0943a2196ff3f179840e1934051eddd3aa54cad4e",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241104.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241104.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241105.bbo-1m.dbn.zst",
+            "size": 30055,
+            "hash": "sha256:9d3afc5258b4008e9b5bbc2e7f7bdc4c86edd63fd1894ec6c31508480985cb18",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241105.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241105.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241106.bbo-1m.dbn.zst",
+            "size": 31573,
+            "hash": "sha256:422edc423d0c811dcdc99976bd36f81f6c5124aae5f93191b040e3274bfeabba",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241106.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241106.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241107.bbo-1m.dbn.zst",
+            "size": 30000,
+            "hash": "sha256:3961d4ed10657e9fb44c840510f5bfb813d8edb9902489de9ada26374adc9cde",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241107.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241107.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241108.bbo-1m.dbn.zst",
+            "size": 29071,
+            "hash": "sha256:e9250db572cb9c95ad1ae4bef9b680688aba71fd6578a538ad079495cf21a093",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241108.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241108.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241111.bbo-1m.dbn.zst",
+            "size": 29144,
+            "hash": "sha256:2615f44b22d550882e61bb27c89fd34c1baa40b04f7f0cadd749c692f7745377",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241111.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241111.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241112.bbo-1m.dbn.zst",
+            "size": 30487,
+            "hash": "sha256:129daa5f323a5ea4314b86165c1f43a588d67a0b9c3be659ff8e45cb9cc40863",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241112.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241112.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241113.bbo-1m.dbn.zst",
+            "size": 28901,
+            "hash": "sha256:556c1ec640d7712c09661ed7f2487fbfb61c6f9a626cdb77bfe5ea9c8753f416",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241113.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241113.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241114.bbo-1m.dbn.zst",
+            "size": 30064,
+            "hash": "sha256:2e1e31e4548c2ed3c1fd7ce27631e29742d0998c7fffb99e2d2e69b64ec30ff0",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241114.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241114.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241115.bbo-1m.dbn.zst",
+            "size": 30351,
+            "hash": "sha256:1a81b1aa58b48530bae829c9820cc43d97ed5931d202fc8d81c8dbc2e11145c5",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241115.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241115.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241118.bbo-1m.dbn.zst",
+            "size": 29911,
+            "hash": "sha256:7a8d10e7fe507919b6027684c14c1299ced0dd4146e3f28ca7474b7a25aec54a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241118.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241118.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241119.bbo-1m.dbn.zst",
+            "size": 31040,
+            "hash": "sha256:7415704ab5649b8dfe5d73660350f612bea9eae630ddf488abe6b1b5a76076b1",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241119.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241119.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241120.bbo-1m.dbn.zst",
+            "size": 31144,
+            "hash": "sha256:8cb0acb80dc646cde1fb388019cf5ee0f2ea91cf89a1be42dde92ccd9ebea2bf",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241120.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241120.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241121.bbo-1m.dbn.zst",
+            "size": 31404,
+            "hash": "sha256:7e37b549072b83c4289414aff8f2a09a82d19c00bfbad294fffc0c7e27b2cc26",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241121.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241121.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241122.bbo-1m.dbn.zst",
+            "size": 30009,
+            "hash": "sha256:2cce8692ebae5ea54599aad68814b5a10a6b0d78cc6f4e55ce01cd280e72ea2e",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241122.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241122.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241125.bbo-1m.dbn.zst",
+            "size": 30866,
+            "hash": "sha256:4b6989aa0db83ed8b882c095d75b4a75f7f975a269c3eb8bc60ddd28ca2c66bb",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241125.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241125.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241126.bbo-1m.dbn.zst",
+            "size": 30027,
+            "hash": "sha256:bd08c52118c5533923a8583cf3f0b633a0958c72b35eb0032c7dcaccb7e883a1",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241126.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241126.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241127.bbo-1m.dbn.zst",
+            "size": 28585,
+            "hash": "sha256:4505483650b01297cc76a6612c2ec42565466b33477c7bd0c2b87b08d2bef17a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241127.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241127.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241129.bbo-1m.dbn.zst",
+            "size": 23162,
+            "hash": "sha256:6c43bae2ce7917a36f24b33ca7725644f1b71df819b0d831287cad992a44e2d7",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241129.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241129.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241202.bbo-1m.dbn.zst",
+            "size": 28328,
+            "hash": "sha256:16ace5404c1f1cf2e7fd721fa25d8155d0926321ff5913735b8d73dc8cd666e6",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241202.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241202.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241203.bbo-1m.dbn.zst",
+            "size": 28641,
+            "hash": "sha256:fe306d5e2415eeeab7164232014614873355007df324406af1c813134d0c6d84",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241203.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241203.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241204.bbo-1m.dbn.zst",
+            "size": 28907,
+            "hash": "sha256:ad5168ada67e41b6e2871128d90f5291a79b2c31ddb6829518a4812e75dbd603",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241204.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241204.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241205.bbo-1m.dbn.zst",
+            "size": 28151,
+            "hash": "sha256:119080e80aca4183b6e76a13f7ad138324fb6da79dfd6441f677fba2365bda15",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241205.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241205.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241206.bbo-1m.dbn.zst",
+            "size": 28109,
+            "hash": "sha256:b97260a44a82e68cc61135aedfca5d5292869bd3d1e55d09dcd3313af7c81001",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241206.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241206.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241209.bbo-1m.dbn.zst",
+            "size": 29993,
+            "hash": "sha256:a9c95fd91a97e01040bcb27b1a2e51d5c6f67560fd19846c01d647a7073afc12",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241209.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241209.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241210.bbo-1m.dbn.zst",
+            "size": 28664,
+            "hash": "sha256:f674698c8759a937d7acd665761d44069fd1b7343602d89386b9298c880a87bc",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241210.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241210.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241211.bbo-1m.dbn.zst",
+            "size": 28523,
+            "hash": "sha256:bd33fda0845a8b57c0b91c440d5326542178f677fbae3f60d0c9b41a113a6fa9",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241211.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241211.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241212.bbo-1m.dbn.zst",
+            "size": 29944,
+            "hash": "sha256:6255170420fe4248018b447595fee46c56a34cfd8945b24750771b0b8fda151f",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241212.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241212.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241213.bbo-1m.dbn.zst",
+            "size": 28046,
+            "hash": "sha256:30ee96f39b8478023d5f8650951317ef090a5d9950c9357a559dcc4cc400f1d3",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241213.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241213.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241216.bbo-1m.dbn.zst",
+            "size": 29264,
+            "hash": "sha256:413037a947b550a501876c313e2d9664212bb0443e6ac4d1c9ca41608412de1e",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241216.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241216.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241217.bbo-1m.dbn.zst",
+            "size": 29432,
+            "hash": "sha256:5b0dc2001f50a87503f299804549895f17fea8fd8cce3d73cbbbb530a3f70494",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241217.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241217.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241218.bbo-1m.dbn.zst",
+            "size": 31611,
+            "hash": "sha256:5128c5769fc172d1135d5b414439cbdada2f7be417badab452259f6a42c22281",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241218.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241218.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241219.bbo-1m.dbn.zst",
+            "size": 31377,
+            "hash": "sha256:005e9f2adeeb0e5f260a0018a7ad52522657de71d7dbe8a625bb90e0e18da3b1",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241219.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241219.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241220.bbo-1m.dbn.zst",
+            "size": 32969,
+            "hash": "sha256:0d092d177c628bec20c71b94d74ef7b597e03dc032d70c963967c72bc788a19c",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241220.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241220.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241223.bbo-1m.dbn.zst",
+            "size": 30245,
+            "hash": "sha256:b543a763f455979c1601d02138840efe30552f0949ef576b30e36d4b67a4baa9",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241223.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241223.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241224.bbo-1m.dbn.zst",
+            "size": 22729,
+            "hash": "sha256:e2df769c4ea9fa8eb7df6dcc3733aa863abeceda54857d11b0478d4427cd8506",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241224.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241224.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241226.bbo-1m.dbn.zst",
+            "size": 29338,
+            "hash": "sha256:306c689692bd2dacf1e6c9620c8bf5642a4bf17dfebd731977579b442f6f7b54",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241226.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241226.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241227.bbo-1m.dbn.zst",
+            "size": 28761,
+            "hash": "sha256:cd9c69285784ea0a00b4d66b9e72214430cf0da33dc0797ea42caf474312e6b8",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241227.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241227.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241230.bbo-1m.dbn.zst",
+            "size": 31322,
+            "hash": "sha256:6fd3cc5df235420e005cf5e883492eadfc7c496580309693816dd2644ffb252a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241230.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241230.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20241231.bbo-1m.dbn.zst",
+            "size": 29329,
+            "hash": "sha256:666237be402766c937d1c6b563e873747fc54b5e29da8cf3fc80518be061d8f2",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241231.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20241231.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250102.bbo-1m.dbn.zst",
+            "size": 31705,
+            "hash": "sha256:fb30967b715b44a7b82dfc89e0d4965287ed0a7327396d0fb61f28c91cdc42f3",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250102.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250102.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250103.bbo-1m.dbn.zst",
+            "size": 29645,
+            "hash": "sha256:19e29d53ee9f3fe785576cfc693c7678d2e3ff38c001a72d1a91930f0982da8e",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250103.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250103.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250106.bbo-1m.dbn.zst",
+            "size": 30773,
+            "hash": "sha256:87940b58685ec44c82c5614a935db3eb13c0dc0fc8d6dd7b5a9e08e910a5a05f",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250106.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250106.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250107.bbo-1m.dbn.zst",
+            "size": 30933,
+            "hash": "sha256:4c2d11fe56bcf858872bb36834be1d3e2ef7974a3df415b02c4da281161dacc8",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250107.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250107.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250108.bbo-1m.dbn.zst",
+            "size": 30811,
+            "hash": "sha256:d75da992e2fe2df0738323a72715422323b5c6b9ccaaf18cfd0f9994dbd3fb4b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250108.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250108.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250110.bbo-1m.dbn.zst",
+            "size": 30766,
+            "hash": "sha256:4a58afbe18012839b3abc3668352659614d50c4b32a3097f60c95dbfed3df871",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250110.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250110.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250113.bbo-1m.dbn.zst",
+            "size": 31855,
+            "hash": "sha256:3c2b097bfeeb1e3964fead832ad707cd2d7afd9fed875ed9363967b68048a2c0",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250113.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250113.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250114.bbo-1m.dbn.zst",
+            "size": 31156,
+            "hash": "sha256:c2d337904d38afb192e88fcb5284a03722a913bdfb0ad1622fe0209ff63a3743",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250114.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250114.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250115.bbo-1m.dbn.zst",
+            "size": 30433,
+            "hash": "sha256:e5bb9d80334d34b9f3a8959957aacdffd1e20382ad6e5dac082b8c2f5cc7cf16",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250115.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250115.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250116.bbo-1m.dbn.zst",
+            "size": 30592,
+            "hash": "sha256:b153161c82872a564d2f121ed586c97010aff105015801f880713b61da374b61",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250116.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250116.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250117.bbo-1m.dbn.zst",
+            "size": 29327,
+            "hash": "sha256:5da1f50adb8edb034d56120a07e88d77dccfcbf9058ffcad83cc1ed38b18eeaa",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250117.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250117.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250121.bbo-1m.dbn.zst",
+            "size": 30950,
+            "hash": "sha256:95bd7d8a6fb5d082abb0f46351e9c90584ea4c0ab22f312544e4f530bc68b7ea",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250121.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250121.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250122.bbo-1m.dbn.zst",
+            "size": 30113,
+            "hash": "sha256:a0d3d4adf2924a457d0dcb815e68e8a809ee51f6457853a0f917f6b5c1b4fd03",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250122.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250122.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250123.bbo-1m.dbn.zst",
+            "size": 29954,
+            "hash": "sha256:7de2396e1b0394dc581868ac876dbf5e7c2549cfb78c2f83f6de92d396f78d5d",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250123.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250123.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250124.bbo-1m.dbn.zst",
+            "size": 29067,
+            "hash": "sha256:ce1dad96b97e1fde27dee0c83aa7acc654d8230e6694a9d64a61dd2dc67830dd",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250124.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250124.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250127.bbo-1m.dbn.zst",
+            "size": 32971,
+            "hash": "sha256:bd743f49cd28f9cee61446cae9f75f3f837a21162c49d250bf58efa68b01ac86",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250127.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250127.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250128.bbo-1m.dbn.zst",
+            "size": 30626,
+            "hash": "sha256:df21b658c5a9546f5c126a12e7c596067685c38e5a7a87c2829c6afb9e2907ac",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250128.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250128.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250129.bbo-1m.dbn.zst",
+            "size": 30982,
+            "hash": "sha256:515362be2529e6460d79a6613d88188cd0e632ec225feb4079af538c2858b714",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250129.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250129.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250130.bbo-1m.dbn.zst",
+            "size": 31304,
+            "hash": "sha256:67ce5a5def4ce0c0b6b08453b8ae19c4b0e58805a5ced3cfe6a0aa70c9ac9a92",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250130.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250130.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250131.bbo-1m.dbn.zst",
+            "size": 30183,
+            "hash": "sha256:0b91cbfc0e208e2b21db4467ae834294ab6b1301522af6f0e254a44ebd3263a7",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250131.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250131.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250203.bbo-1m.dbn.zst",
+            "size": 32957,
+            "hash": "sha256:0432981e9ada3afdd465c386d83559dae3991ef09ff981665ed18a697bfebe8e",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250203.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250203.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250204.bbo-1m.dbn.zst",
+            "size": 31410,
+            "hash": "sha256:d07510dea58122cfc918c78954a3692300293cc83448e7881889c34030001725",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250204.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250204.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250205.bbo-1m.dbn.zst",
+            "size": 30776,
+            "hash": "sha256:a0dbe20f91869bb12aa59c4d4d090a4eeaf4ae462e395ae2e0d566a2acd7dd59",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250205.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250205.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250206.bbo-1m.dbn.zst",
+            "size": 30548,
+            "hash": "sha256:862dd2611c67855ec7a5eb0a21be5c2e19ee22507966b629817a9f5618318d5b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250206.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250206.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250207.bbo-1m.dbn.zst",
+            "size": 30177,
+            "hash": "sha256:6f34b496e76964b8d145d3073f4a8253f7021f310cfbf6584dc16cb9109ed2d1",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250207.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250207.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250210.bbo-1m.dbn.zst",
+            "size": 29826,
+            "hash": "sha256:bd24bc20f129e40b9720da10f4801da54b2dce9d667aa8c2ec38b957f18e5ec3",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250210.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250210.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250211.bbo-1m.dbn.zst",
+            "size": 29813,
+            "hash": "sha256:0b4a618c8b094d45001a85caec809341cced749c9b7ae87a8ab8e76ea047477b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250211.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250211.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250212.bbo-1m.dbn.zst",
+            "size": 30947,
+            "hash": "sha256:168875c04324bfd2a9b4153b9b3d26983666efbb45c313daa93bf6bcf0757cb5",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250212.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250212.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250213.bbo-1m.dbn.zst",
+            "size": 31163,
+            "hash": "sha256:784f1b4a3b62c4e69015ac31c1d7ac4745af3b9b65bcc2fd17c4bbde4431e6e4",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250213.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250213.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250214.bbo-1m.dbn.zst",
+            "size": 28352,
+            "hash": "sha256:b880cbb632a8b2db09b0c2e7f8387be7dd6fdab94e53be5bc6ad204a11dfce46",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250214.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250214.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250218.bbo-1m.dbn.zst",
+            "size": 30023,
+            "hash": "sha256:df11a24d3eb8377723d02822705ade5d37efefdaaafa7c86eb7b7e5650fa8fdc",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250218.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250218.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250219.bbo-1m.dbn.zst",
+            "size": 30835,
+            "hash": "sha256:340691f3e43ac8c3914cd211ee019a2c86284ce7e8469f99c648260fc46aa9c7",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250219.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250219.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250220.bbo-1m.dbn.zst",
+            "size": 29827,
+            "hash": "sha256:1f6af94c2b33086601695e602bf305b762387389f79b785a600de6d31d3d09d4",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250220.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250220.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250221.bbo-1m.dbn.zst",
+            "size": 30707,
+            "hash": "sha256:e7c8836a2b2a0fb618122958052093cfd0cbe60aad1c5d15cc5c7f8affbaa305",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250221.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250221.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250224.bbo-1m.dbn.zst",
+            "size": 31177,
+            "hash": "sha256:3533a6ae750dc8d24170ddca1ef752ff395c1413581d6a5b3c0aa8f1d8c46a80",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250224.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250224.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250225.bbo-1m.dbn.zst",
+            "size": 32068,
+            "hash": "sha256:27639afff1dc71667041355ff0857a7c24c05446ecb0bff9b12a1132e9e856ce",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250225.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250225.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250226.bbo-1m.dbn.zst",
+            "size": 32164,
+            "hash": "sha256:d226b3ed831846db973c956dd2a1af1b6b1ab880a146a2b22827055b6f3ae658",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250226.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250226.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250227.bbo-1m.dbn.zst",
+            "size": 32043,
+            "hash": "sha256:6d4cb61b7cc27e59f1d6a9d71faad02533438c7810d5982e02dab4b3c2f26672",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250227.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250227.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250228.bbo-1m.dbn.zst",
+            "size": 30943,
+            "hash": "sha256:0606d83c30e3d65c82790ca24da79882c5272f8b79efd80de8cba21a809f2cd2",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250228.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250228.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250303.bbo-1m.dbn.zst",
+            "size": 33239,
+            "hash": "sha256:5ddb7792e9ece56771877dd7170d241c0005e3730546d919329e440ef259a3e3",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250303.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250303.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250304.bbo-1m.dbn.zst",
+            "size": 33516,
+            "hash": "sha256:f5ad8ffcfa831b1218e2621a5d65334e348b4f3511b7f4791faf082cb4b1a04c",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250304.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250304.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250305.bbo-1m.dbn.zst",
+            "size": 32637,
+            "hash": "sha256:a63952c0bf18039977c50f9bcfce54843b4b097154f47077658480e6584d8883",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250305.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250305.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250306.bbo-1m.dbn.zst",
+            "size": 33093,
+            "hash": "sha256:5e6bd9b3f0eb1df44bd4e97a86510bf49997b15a61a2c148edbb9a1bcea2fc63",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250306.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250306.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250307.bbo-1m.dbn.zst",
+            "size": 31313,
+            "hash": "sha256:1cd3151ecf5ce8ad647676b04638de3d25a95f7fa2f5204f7c0afd8c24ed351c",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250307.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250307.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250310.bbo-1m.dbn.zst",
+            "size": 35825,
+            "hash": "sha256:ac5291d7fbf6dd981e190ef7bff113bad6c5fdc40344e5525989f6ad9525c103",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250310.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250310.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250311.bbo-1m.dbn.zst",
+            "size": 34887,
+            "hash": "sha256:1c022fbad43ce0dc8443a28609d98d73c3e9dbeebe4e0dd26b694d0d75990ebc",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250311.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250311.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250312.bbo-1m.dbn.zst",
+            "size": 33908,
+            "hash": "sha256:fd61e71f1091307eb36871487ae8e4a16f3f6f9dfa68cf485d11f79051609d47",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250312.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250312.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250313.bbo-1m.dbn.zst",
+            "size": 34589,
+            "hash": "sha256:ac344265364e6b3648d7927c5c59941191580d4b325525464fbcacee7df462d0",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250313.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250313.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250314.bbo-1m.dbn.zst",
+            "size": 30964,
+            "hash": "sha256:fbe72d4c3a99d6ae258077012f380bce1fd929ed0115a2c9af4185a57843ca29",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250314.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250314.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250317.bbo-1m.dbn.zst",
+            "size": 33112,
+            "hash": "sha256:8a3f2eb05808c85564f002c2be00ab59da8ed647046dac965da92018874395ac",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250317.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250317.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250318.bbo-1m.dbn.zst",
+            "size": 32017,
+            "hash": "sha256:b846d8a432db2a84d4e65e52c35ce2274579f2aabe10aec325dd51ca42094ec1",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250318.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250318.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250319.bbo-1m.dbn.zst",
+            "size": 32738,
+            "hash": "sha256:805eb5c3b59a559d03289211e257a53e702c63a6caa114ee13ebf52b04134f54",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250319.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250319.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250320.bbo-1m.dbn.zst",
+            "size": 33415,
+            "hash": "sha256:6165ce93c4ef1ab988d9282ab77a3c6b5e28ab5dbaddbb0640da2d8218bf2478",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250320.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250320.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250321.bbo-1m.dbn.zst",
+            "size": 31403,
+            "hash": "sha256:552e1062d1691db0ff4aea3b9ff53425ed42d889b228d823ab75a9c9a15e2642",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250321.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250321.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250324.bbo-1m.dbn.zst",
+            "size": 32407,
+            "hash": "sha256:668597ef19c5c4d02654c09a82b2b9cbef2b0e6a59839fb7389471e538488e73",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250324.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250324.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250325.bbo-1m.dbn.zst",
+            "size": 31701,
+            "hash": "sha256:317adbb1ee12a3c8b7bb7c62a814cf5c2c0a4629508fa7cd73115dfe9bafcca8",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250325.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250325.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250326.bbo-1m.dbn.zst",
+            "size": 33600,
+            "hash": "sha256:eefa00c6f1212a6b465f192637016f73fccc7fc86427ffe0e946d66f4dd972e2",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250326.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250326.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250327.bbo-1m.dbn.zst",
+            "size": 32248,
+            "hash": "sha256:339b056bba41070325f1aeb2b2c28c4723e6bd01acbf903f96163ffbc98bbaba",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250327.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250327.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250328.bbo-1m.dbn.zst",
+            "size": 32756,
+            "hash": "sha256:cfae766e57fdb5271c4f790c9e41839a63dc7be10f8906d11231dd60d3ef38b0",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250328.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250328.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250331.bbo-1m.dbn.zst",
+            "size": 34314,
+            "hash": "sha256:7df1f40fc87b4a1057f02e97b2e6f08e5488465611bf58752cbbfe1e3e2fc5e7",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250331.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250331.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250401.bbo-1m.dbn.zst",
+            "size": 33956,
+            "hash": "sha256:4c82a5d29dce2174d8b71bd585797c92012633a4e46ed6b67369f0daa0520074",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250401.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250401.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250402.bbo-1m.dbn.zst",
+            "size": 35856,
+            "hash": "sha256:1b4ecf09e85076134174e51e9ab06a3f23fd6abd125305071514eee420633f08",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250402.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250402.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250403.bbo-1m.dbn.zst",
+            "size": 35821,
+            "hash": "sha256:0f3f8c558dc4d9275e5863bcfe75d5571e3af26c292b6f802f3c55e998fb09ac",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250403.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250403.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250404.bbo-1m.dbn.zst",
+            "size": 36973,
+            "hash": "sha256:77aa3386924dc86e68b3fee2269d20ba328cbd4980b34c0a613adbd6d2acefa6",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250404.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250404.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250407.bbo-1m.dbn.zst",
+            "size": 36941,
+            "hash": "sha256:5d7ad1c4d127193ea8bed11cb7f9a59914cf4723068e973b02361606b3e54398",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250407.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250407.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250408.bbo-1m.dbn.zst",
+            "size": 37601,
+            "hash": "sha256:1a6b4ea223fab34ff1ba36910359f9263ee1050c0129eeca8224897924b87f16",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250408.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250408.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250409.bbo-1m.dbn.zst",
+            "size": 37952,
+            "hash": "sha256:46160b9fc89cd7285d169563ba04a79e85785eaf123ea82b2f26e9a8e8a761b8",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250409.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250409.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250410.bbo-1m.dbn.zst",
+            "size": 37173,
+            "hash": "sha256:26ac37ad6ffce1296dd23fc7e8331aed93278386763647e0681b800a41a9897a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250410.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250410.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250411.bbo-1m.dbn.zst",
+            "size": 33485,
+            "hash": "sha256:f6b9296117025cf0276cac8cf49139ae28416e528702b6f0a25107383f051ba5",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250411.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250411.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250414.bbo-1m.dbn.zst",
+            "size": 34462,
+            "hash": "sha256:853fd33e2b21307977ef28f82cfa42ee0fd0999f2fc2bf9e22d218fda6694954",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250414.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250414.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250415.bbo-1m.dbn.zst",
+            "size": 34223,
+            "hash": "sha256:3db5c27961be7329738cc1a58e5a95cc9624e5cef910dd2da55fc6918f331a8e",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250415.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250415.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250416.bbo-1m.dbn.zst",
+            "size": 34903,
+            "hash": "sha256:38d8b9cb571d0d819dff4a429b58c33a8971a94e4fbb42b24e6c62a02ac5b0b3",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250416.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250416.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250417.bbo-1m.dbn.zst",
+            "size": 32501,
+            "hash": "sha256:5300443b040bd9829fbf632af7bfb1c9e65190664e384e12317e6eac4da22c11",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250417.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250417.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250421.bbo-1m.dbn.zst",
+            "size": 33855,
+            "hash": "sha256:958242805dbae6f0989aea52dec73c3431ed2de29a63c30140c5547c005a362a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250421.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250421.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250422.bbo-1m.dbn.zst",
+            "size": 35455,
+            "hash": "sha256:5e1323d770124711603326283cf7fbc0ee3345265785bf1f72c1caaa04772baf",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250422.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250422.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250423.bbo-1m.dbn.zst",
+            "size": 34883,
+            "hash": "sha256:28835571c469e8639bc7f863e5fd90f06398bbb53f9e605253b9fa1a24449199",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250423.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250423.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250424.bbo-1m.dbn.zst",
+            "size": 35071,
+            "hash": "sha256:e615f40c641747bcfd328f99a66db8dc8d6d9e1c23b6fea39c09d08d42a04e9c",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250424.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250424.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250425.bbo-1m.dbn.zst",
+            "size": 31284,
+            "hash": "sha256:81b56647d701d839e6370f137d7186e918619ecbf14548883c88f411dbd1abc4",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250425.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250425.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250428.bbo-1m.dbn.zst",
+            "size": 33153,
+            "hash": "sha256:ca7e9087a107175f8c161a2c1682f6072835d012a1ffadac119fb7a3d5594527",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250428.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250428.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250429.bbo-1m.dbn.zst",
+            "size": 33174,
+            "hash": "sha256:98ac2fbf7e8faa5fc8e69aa976727cd0b439518573267414ed5fad442cf9d236",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250429.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250429.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250430.bbo-1m.dbn.zst",
+            "size": 34691,
+            "hash": "sha256:2027f6fbf947ad1d93fdd299d3790f1f2efbcfd52346aa9346a4d8f1fe33d758",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250430.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250430.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250501.bbo-1m.dbn.zst",
+            "size": 33434,
+            "hash": "sha256:021924743e4a54ed0a082ed7a1c84a501fa90ad9bb4d9a57047b00aa6e750d56",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250501.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250501.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250502.bbo-1m.dbn.zst",
+            "size": 29969,
+            "hash": "sha256:22ca7c50b2eb97bc72f3c86d4b7e22411796b65fd1725cc4fb239481a5e292af",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250502.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250502.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250505.bbo-1m.dbn.zst",
+            "size": 31400,
+            "hash": "sha256:db100f2d2c221d1b99b19b9b02c0610db41fe74d43e8a702030cea3025f4082c",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250505.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250505.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250506.bbo-1m.dbn.zst",
+            "size": 33466,
+            "hash": "sha256:16034651f25371539d8911d8db9fb299820187c2498dd7a8631e7b23ceeb4bcf",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250506.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250506.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250507.bbo-1m.dbn.zst",
+            "size": 32464,
+            "hash": "sha256:95140d9995f5335d35f749221d1c00101cd5a47f8a442ead81dca7dd90dccdae",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250507.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250507.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250508.bbo-1m.dbn.zst",
+            "size": 33075,
+            "hash": "sha256:3e25246a4a2783dd41da648a16043c4a2a378c819605176a31710f7ff06801a1",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250508.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250508.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250509.bbo-1m.dbn.zst",
+            "size": 29935,
+            "hash": "sha256:91e0963450fd88ab026f40c169100b315daae952b1e58198123c36887d50241c",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250509.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250509.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250512.bbo-1m.dbn.zst",
+            "size": 32944,
+            "hash": "sha256:6678e99f03ee5c4ac4d4390266c28067875b68c290c4a82df9dec28c17dcdccc",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250512.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250512.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250513.bbo-1m.dbn.zst",
+            "size": 32251,
+            "hash": "sha256:1901001977925595b8460df87ce281babf1c0ae5780d21aa2becf2e8a2bba0ea",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250513.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250513.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250514.bbo-1m.dbn.zst",
+            "size": 31249,
+            "hash": "sha256:dbcf2aa6cd7935219cebc422e549d0a32459328797e746ad5edd59adc4eae4c9",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250514.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250514.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250515.bbo-1m.dbn.zst",
+            "size": 32050,
+            "hash": "sha256:c1a375f80188394d6b4de47a12ae7f9bbd1c75a0c6ca722e5efc5b98e82c5333",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250515.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250515.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250516.bbo-1m.dbn.zst",
+            "size": 32631,
+            "hash": "sha256:4800b88c02445d37e0864e831c0a251dde80854df7c53333197df897c305a52c",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250516.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250516.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250519.bbo-1m.dbn.zst",
+            "size": 33128,
+            "hash": "sha256:62219b8d222c2da4700c0e264f91a79f154e30c92acc5485e0144b27e2b595bf",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250519.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250519.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250520.bbo-1m.dbn.zst",
+            "size": 30976,
+            "hash": "sha256:cb049af1187f42b003a571e425576a626b40af4bbf3ecda805378482dc2b7d6f",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250520.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250520.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250521.bbo-1m.dbn.zst",
+            "size": 33286,
+            "hash": "sha256:6838011de788d466d72627659b2eeea6c192d570f2936b7475f1f4fac586778b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250521.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250521.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250522.bbo-1m.dbn.zst",
+            "size": 32382,
+            "hash": "sha256:1ff14c098e52dfcf1c47f23cd6100cecfa2a5347f55a343c9e76070abaa0dd04",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250522.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250522.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250523.bbo-1m.dbn.zst",
+            "size": 30816,
+            "hash": "sha256:99a4e19ce4f0fdfa12e51f9b40ff19fadec86235aefc80c684087935597a8571",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250523.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250523.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250527.bbo-1m.dbn.zst",
+            "size": 32244,
+            "hash": "sha256:cb4f2af8299918cdbee98461283e4a316c0a1be51f375e05e64d577c4ba06e83",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250527.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250527.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250528.bbo-1m.dbn.zst",
+            "size": 33185,
+            "hash": "sha256:59099cac50cb532b173d0dd7005286c265b2a839fbe785e6778d406ce65200b6",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250528.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250528.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250529.bbo-1m.dbn.zst",
+            "size": 32840,
+            "hash": "sha256:a72a18db7ff636dafa62784ad476a14df01b1560db2fae4f4066788cd2adb956",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250529.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250529.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250530.bbo-1m.dbn.zst",
+            "size": 30414,
+            "hash": "sha256:8a3c88777e0d0f635883dd609942e28c677388e831ca9cfc901a6ea33e4b5b50",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250530.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250530.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250602.bbo-1m.dbn.zst",
+            "size": 32465,
+            "hash": "sha256:b17ee805591d9e69fac9d8cd3885cd4ab292e6aac087bdcd5dc563be727ccf3a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250602.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250602.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250603.bbo-1m.dbn.zst",
+            "size": 31815,
+            "hash": "sha256:f78fc3a0474a83a3df70643cec23445d0b67ea84f782ec653f9554881fe19e42",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250603.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250603.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250604.bbo-1m.dbn.zst",
+            "size": 30777,
+            "hash": "sha256:c79ee461a33221f2ccd9a7e9fb4fa053ef97821071cb9cbac046e3c506ea0d4f",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250604.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250604.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250605.bbo-1m.dbn.zst",
+            "size": 32337,
+            "hash": "sha256:1ecb1d4d54d9cf6a445c919f48ffa854640de1ad7d2b226866d4c5e31d459c93",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250605.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250605.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250606.bbo-1m.dbn.zst",
+            "size": 29617,
+            "hash": "sha256:80595e1cfd7f016c27815055fd8f78b76438af41927399e0e9b319a73e70b082",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250606.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250606.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250609.bbo-1m.dbn.zst",
+            "size": 30477,
+            "hash": "sha256:b71db2e4a1fe91ad24f86031262b5bf52d76207e8b859a1b622e1ba38a65bcb9",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250609.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250609.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250610.bbo-1m.dbn.zst",
+            "size": 31082,
+            "hash": "sha256:d3d4cd28d8cd2b2a9e7a4086e54ca73577c1710831a9126408854c76d3101713",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250610.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250610.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250611.bbo-1m.dbn.zst",
+            "size": 32367,
+            "hash": "sha256:3a7a23256a8ca86d27f4bbf4e4a9b5575c7fe6031954d5f141a823ca784c5217",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250611.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250611.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250612.bbo-1m.dbn.zst",
+            "size": 31795,
+            "hash": "sha256:084f380f48986d01a886088485278370e22f8b60975cc74ade486398e101b153",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250612.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250612.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250613.bbo-1m.dbn.zst",
+            "size": 31397,
+            "hash": "sha256:fe9e73df77a426d46ddfe14e2e8f151565a0109c8cb9fb823a4e8b05fb2fc7fd",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250613.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250613.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250616.bbo-1m.dbn.zst",
+            "size": 32938,
+            "hash": "sha256:0006af1a9066b88f3150a53364b197b80b7e395defc7fe32ec2f3419bf632c1a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250616.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250616.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250617.bbo-1m.dbn.zst",
+            "size": 32444,
+            "hash": "sha256:449152a6f1642d48070a0fb3d0b525e0c855286bc29392f70312aedba9c250dc",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250617.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250617.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250618.bbo-1m.dbn.zst",
+            "size": 31472,
+            "hash": "sha256:f32f5f849619c4c874917609ada2ff4214de11242baaf4beb180ac4a19c67cca",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250618.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250618.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250620.bbo-1m.dbn.zst",
+            "size": 31229,
+            "hash": "sha256:837076224053099475fdc827d05c1efb46bf87186f475155c9f8e804dc32d204",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250620.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250620.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250623.bbo-1m.dbn.zst",
+            "size": 33672,
+            "hash": "sha256:dd4a813953d1d4ae1011776cc785d126ca0b7b9f0718bf3ed12abb1cea83cd99",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250623.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250623.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250624.bbo-1m.dbn.zst",
+            "size": 31553,
+            "hash": "sha256:5146727eebb9adeaf4dd8b7ab06c561412cedfe9291fd13eb2e458b6ff9c1f42",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250624.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250624.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250625.bbo-1m.dbn.zst",
+            "size": 30656,
+            "hash": "sha256:c09ddd42d0ead99c71e89d4504d24c49284172dbac9a8a733673b56fed0e5af1",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250625.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250625.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250626.bbo-1m.dbn.zst",
+            "size": 31004,
+            "hash": "sha256:97796cdfaccee065f48d2d6cd149fb235313c593aa245542c4847aae16d04d4b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250626.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250626.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250627.bbo-1m.dbn.zst",
+            "size": 30136,
+            "hash": "sha256:180465064f2320a4a1770a2fa5dba9d22a436ca7fffb8c4decc453ca4613c1ab",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250627.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250627.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250630.bbo-1m.dbn.zst",
+            "size": 30456,
+            "hash": "sha256:ab657000aa0e524049005458475905aec0181a49bbc227650e66fa8d5bbe74cc",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250630.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250630.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250701.bbo-1m.dbn.zst",
+            "size": 30590,
+            "hash": "sha256:b7bf07dac41d5048fa178e328226a0e48127526f7b354510e16761352fe7ae31",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250701.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250701.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250702.bbo-1m.dbn.zst",
+            "size": 30519,
+            "hash": "sha256:2d2e9e2fae9570dfefe75c3ebf29ab7ace024bfa4f876c6c28e879168b0e3bca",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250702.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250702.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250703.bbo-1m.dbn.zst",
+            "size": 24547,
+            "hash": "sha256:972edf890f63bbfed4bca7d37fa0d6fe69b5993458880bd098b91753c9cbf58a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250703.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250703.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250707.bbo-1m.dbn.zst",
+            "size": 31543,
+            "hash": "sha256:4f79b4b703b27d0af89f81cf08109b4e089b1d550a18ed79ed8d7c8216a7bc2b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250707.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250707.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250708.bbo-1m.dbn.zst",
+            "size": 29404,
+            "hash": "sha256:b56f23c84ff0ccac15b935b26decf7720ca584d2d0a0377058400b4a3f7650b9",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250708.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250708.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250709.bbo-1m.dbn.zst",
+            "size": 30540,
+            "hash": "sha256:436f5bb36d645d467420b2f873277de4e0ec99443a9853ca445570c76384aaa8",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250709.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250709.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250710.bbo-1m.dbn.zst",
+            "size": 30518,
+            "hash": "sha256:ba2be9a7b34d95c98bf4044f55d30c200a17dc0cedfcf0b3e0c9876afce5f701",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250710.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250710.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250711.bbo-1m.dbn.zst",
+            "size": 28849,
+            "hash": "sha256:dd378897f1f1d8fed19f0bb344a5e2abff054f92962a8d0bdf44bf59b92213c0",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250711.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250711.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250714.bbo-1m.dbn.zst",
+            "size": 31065,
+            "hash": "sha256:851e497d686e408770361881376c14846054b10b60274b0cba9f8585f5815220",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250714.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250714.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250715.bbo-1m.dbn.zst",
+            "size": 31825,
+            "hash": "sha256:7a3775d71de263ff892a270fff935eef33eb0c5536e3f7f2e26a0d324aaaf818",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250715.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250715.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250716.bbo-1m.dbn.zst",
+            "size": 31547,
+            "hash": "sha256:ede529d4135c49202398a30bdcf625db1d329e055b9d2230ac88f130738d2432",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250716.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250716.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250717.bbo-1m.dbn.zst",
+            "size": 30869,
+            "hash": "sha256:ad343593eb5a56a9338b4f9bb765520172c2420ff5f7bbdc8792ac65a55cd7c6",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250717.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250717.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250718.bbo-1m.dbn.zst",
+            "size": 27804,
+            "hash": "sha256:231dfb493f970fe66ac56fb58df96c31f3525dd3f3a098b703c2b522be9d546e",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250718.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250718.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250721.bbo-1m.dbn.zst",
+            "size": 30397,
+            "hash": "sha256:149b9838367f04a40e8af5ec8fbd4f5b26f3ae971e72e8d5cc430cecd3eaed2c",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250721.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250721.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250722.bbo-1m.dbn.zst",
+            "size": 30904,
+            "hash": "sha256:ff58305ce5f10e43c2fa94b272555d80b1b217fae81eed3efc506a91fa8f2dc0",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250722.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250722.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250723.bbo-1m.dbn.zst",
+            "size": 31747,
+            "hash": "sha256:42037a6c1d678bd32289397cbe0c896fa75817fe5fb9002e2d9cc2449dfe68b9",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250723.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250723.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250724.bbo-1m.dbn.zst",
+            "size": 29680,
+            "hash": "sha256:70d6fd36192355d1748993b82feea5b1d1ab38a685fce01176cfe5aa4efb82cb",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250724.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250724.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250725.bbo-1m.dbn.zst",
+            "size": 27554,
+            "hash": "sha256:756bdee9eacfc9a3111dfbd3135373f82c746b1665240ddc6ff873a756e825d4",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250725.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250725.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250728.bbo-1m.dbn.zst",
+            "size": 30238,
+            "hash": "sha256:50ee15ebbc0412193196957571dff7f6668617f91f6d9303ef224e10d0ae9cad",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250728.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250728.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250729.bbo-1m.dbn.zst",
+            "size": 30476,
+            "hash": "sha256:e4629a47bbdf2465395d4224aba69f54051308fee958a3542f00b423e2931ca8",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250729.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250729.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250730.bbo-1m.dbn.zst",
+            "size": 32162,
+            "hash": "sha256:dbd39557cd1bca4783b1734339f691fcb92f4639da63c58d298f97f3655fa013",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250730.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250730.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250731.bbo-1m.dbn.zst",
+            "size": 33579,
+            "hash": "sha256:25e4eb38bb7105ab11ced2e8e19b1225581f4b92840412fae77a8638f2e09650",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250731.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250731.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250801.bbo-1m.dbn.zst",
+            "size": 31501,
+            "hash": "sha256:8ab6fffd93a853becd81f40259769c2c2cc175c906aaf84b340286316d95065f",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250801.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250801.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250804.bbo-1m.dbn.zst",
+            "size": 31649,
+            "hash": "sha256:29dfcb22cec351cf48be62f102afaf4a3cdebfc248c25a9220f06b72e1222592",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250804.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250804.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250805.bbo-1m.dbn.zst",
+            "size": 31649,
+            "hash": "sha256:87501e30b14f5b08274db5ca3e1c28c496cf0008eb824049dcd359ce3ba43f8f",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250805.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250805.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250806.bbo-1m.dbn.zst",
+            "size": 32253,
+            "hash": "sha256:10fa071b74e0e42ec095415768371b5879816e41c6e42af582a2fec289db0d55",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250806.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250806.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250807.bbo-1m.dbn.zst",
+            "size": 32513,
+            "hash": "sha256:d68dc312db555ee55cf28e5035f440a116bf82843f90dc62a54f6f9e7ba81833",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250807.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250807.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250808.bbo-1m.dbn.zst",
+            "size": 29349,
+            "hash": "sha256:36467f52f0ad18d65f03380d26df77d785e965d0031ab9a1430b29ca52eacfe4",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250808.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250808.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250811.bbo-1m.dbn.zst",
+            "size": 30938,
+            "hash": "sha256:7970a3920687c24c2a2e624b458fa42c01dc274e4166af27ca1f25fb7ac30c58",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250811.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250811.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250812.bbo-1m.dbn.zst",
+            "size": 31464,
+            "hash": "sha256:b12165988b54e37a09d30d745b15f0c3bc118c64a0367ff2ce82aaccb9dcff8f",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250812.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250812.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250813.bbo-1m.dbn.zst",
+            "size": 30415,
+            "hash": "sha256:e45f4e613be89d7f0b46c5dbb4421c471ad256ddcd1aaa58a104c2b87b6fa9a5",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250813.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250813.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250814.bbo-1m.dbn.zst",
+            "size": 30218,
+            "hash": "sha256:deaef2cfde575b4bcb024754182b66b799996a84f9bfd395ed4b1d547e764572",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250814.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250814.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250815.bbo-1m.dbn.zst",
+            "size": 29298,
+            "hash": "sha256:feefbd2a2bb4d8f70c8474e10c99d2ee81785c26541dbea1f841f3592bd15859",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250815.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250815.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250818.bbo-1m.dbn.zst",
+            "size": 29764,
+            "hash": "sha256:9bf8b7e77950cd1c40e41deed01668d479abb1a08f8cafbb89f3f02fcbc432d6",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250818.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250818.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250819.bbo-1m.dbn.zst",
+            "size": 31229,
+            "hash": "sha256:ec3397b55f6437a5cfaea917198bbfee774f56455ef7cda024f3986a5689c85a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250819.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250819.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250820.bbo-1m.dbn.zst",
+            "size": 30931,
+            "hash": "sha256:21e79fd1a50c52c47bb59295c84f7f16652580efa04b6be1dd8a99e27cf3623a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250820.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250820.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250821.bbo-1m.dbn.zst",
+            "size": 30615,
+            "hash": "sha256:a19765ba415e151c7a8ee1cd1cc1dc0208792b5d4b8d4293b0b8ee7db526c6f3",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250821.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250821.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250822.bbo-1m.dbn.zst",
+            "size": 28290,
+            "hash": "sha256:ad238f9566eb9e59947a731af64d44326967d1df5c388c76161c4c44b5244c7e",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250822.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250822.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250825.bbo-1m.dbn.zst",
+            "size": 30485,
+            "hash": "sha256:e263bdd2eee46581063fc5a676de4dba476d6a94e91788d0239f13b522f0764b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250825.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250825.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250826.bbo-1m.dbn.zst",
+            "size": 30141,
+            "hash": "sha256:229ae69802b1a74e796ac82ae52c596a8a0120364b97815748f1faddb6667ea3",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250826.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250826.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250827.bbo-1m.dbn.zst",
+            "size": 30561,
+            "hash": "sha256:e773c5c5101420d89b721aada46eb8e14ef9b685c853a2348b4006db14db83ac",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250827.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250827.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250828.bbo-1m.dbn.zst",
+            "size": 30142,
+            "hash": "sha256:d36cd6a9400ee07e27cba099538c269e9cb25c610f6af581b3b1c598f030a164",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250828.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250828.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250829.bbo-1m.dbn.zst",
+            "size": 28956,
+            "hash": "sha256:8f303d1f40241f37a983f89075a21974ce1e17ea01f60224cf7628c7ddef73ba",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250829.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250829.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250902.bbo-1m.dbn.zst",
+            "size": 32799,
+            "hash": "sha256:67aba62f17a147075f3d35b0a833ea23ecd6653110485ca1608bb09b2788f7a5",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250902.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250902.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250903.bbo-1m.dbn.zst",
+            "size": 30742,
+            "hash": "sha256:21c69fe7ba9a806cb1b391b81c9414b0f6c44a24483e218e1bc29f2aba0710c7",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250903.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250903.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250904.bbo-1m.dbn.zst",
+            "size": 31120,
+            "hash": "sha256:999175570f970adf3dc2bdc32b0dea8a81f0dc119a8f8cf398e74b103e2de777",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250904.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250904.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250905.bbo-1m.dbn.zst",
+            "size": 30024,
+            "hash": "sha256:7e9aa58572a59b7332b7a1e60f70b2c8ea20b9c55063b6bb94d28b7b2f947981",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250905.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250905.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250908.bbo-1m.dbn.zst",
+            "size": 31061,
+            "hash": "sha256:13f8289f82ccd9adaff850453a961c3caf811d252a8330ee1e4af3637b1e7947",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250908.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250908.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250909.bbo-1m.dbn.zst",
+            "size": 31715,
+            "hash": "sha256:285edfc4d7e2171bf818e2daf927b342885539a7035ca65b5c9531cff1ffa027",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250909.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250909.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250910.bbo-1m.dbn.zst",
+            "size": 31194,
+            "hash": "sha256:87fca418d49d54c2713659a472e7c6b10b433fbbdba2a9727c3f7a71dd9e91dd",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250910.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250910.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250911.bbo-1m.dbn.zst",
+            "size": 30042,
+            "hash": "sha256:d70e123935dbb5d8b44921d183c8b3ef1b1b1f03bc4ad6b9fa9ec02c1c9e3e11",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250911.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250911.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250912.bbo-1m.dbn.zst",
+            "size": 28068,
+            "hash": "sha256:a89123f87fb7370c2aedef9e33b3210fa7b65dbf5f5740c7973ca25f1d73ddad",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250912.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250912.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250915.bbo-1m.dbn.zst",
+            "size": 30973,
+            "hash": "sha256:f363f5b6082c19506f28de9f0da5608e51aba1f0f85714a7af1f09f251629627",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250915.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250915.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250916.bbo-1m.dbn.zst",
+            "size": 30585,
+            "hash": "sha256:d3fea5b66746573bcf11fdf50a41a4881003a35975cd14a52cd471abe45a3e18",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250916.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250916.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250917.bbo-1m.dbn.zst",
+            "size": 31165,
+            "hash": "sha256:77346b2926397e6884d0d6c5281a04bf73b359419fc10bd388936b92ad2ba4b0",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250917.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250917.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250918.bbo-1m.dbn.zst",
+            "size": 31700,
+            "hash": "sha256:9127cd05638612efc763f98722045b969ca3166de36f1e4f5ec16264152a63fd",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250918.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250918.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250919.bbo-1m.dbn.zst",
+            "size": 30400,
+            "hash": "sha256:60708bd4d800efa66a8bb9f1c4e3531a9c8cae1bf3336000f0902beeaba71746",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250919.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250919.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250922.bbo-1m.dbn.zst",
+            "size": 31207,
+            "hash": "sha256:3494776173977d899df04e46f73db94db599a2bc31c611ea755ad9f840b6afac",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250922.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250922.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250923.bbo-1m.dbn.zst",
+            "size": 31012,
+            "hash": "sha256:e7525275f325876a7738776343b67d25e98d7240a725f50a0eeec9459d96ff8c",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250923.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250923.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250924.bbo-1m.dbn.zst",
+            "size": 29903,
+            "hash": "sha256:2893c2ba8275667aa642a0ce5b07d7558115cc957694e046c03aec8bf591bcdb",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250924.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250924.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250925.bbo-1m.dbn.zst",
+            "size": 32109,
+            "hash": "sha256:9dbb0a6be4e80b3eceea809b6b7d3787f025b261582418ec5e9ef2debc1ef667",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250925.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250925.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250926.bbo-1m.dbn.zst",
+            "size": 28344,
+            "hash": "sha256:cc84eef36c4cb1eb40386a97a61dd5e34e1010801c7fd7b471b4edd856900f50",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250926.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250926.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250929.bbo-1m.dbn.zst",
+            "size": 30754,
+            "hash": "sha256:c194fd2585a464bb99013895e762b684b3fa4888dbde0ddcae3ee1fd25b90b22",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250929.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250929.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20250930.bbo-1m.dbn.zst",
+            "size": 31407,
+            "hash": "sha256:0ca50eaf8806f6a07ae01032bf6ef4cc1e2a36b1fccaf5b604932d7687f68794",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250930.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20250930.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251001.bbo-1m.dbn.zst",
+            "size": 31996,
+            "hash": "sha256:0a1d101329d15c3b73d3540881222a1a28ba6137d7b2a86c5f3458a2264c531a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251001.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251001.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251002.bbo-1m.dbn.zst",
+            "size": 30249,
+            "hash": "sha256:eaaa38c17e36621e71b6d3888ca689d434d9c9803395f547dc7731da301fb81c",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251002.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251002.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251003.bbo-1m.dbn.zst",
+            "size": 29574,
+            "hash": "sha256:4bb8023ba26a3a9b348dcbe7ccf422e006e359d5dc62e2acac12302fc3ee744b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251003.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251003.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251006.bbo-1m.dbn.zst",
+            "size": 30294,
+            "hash": "sha256:cd4fbb82b0978e780505eb64d427c7060b2c4993870e9e491573beef4b62777b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251006.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251006.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251007.bbo-1m.dbn.zst",
+            "size": 30635,
+            "hash": "sha256:2fbc54f6388534b21b35fb6be87d00945f85574b9dc8d8c1148c490b49fa3f81",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251007.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251007.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251008.bbo-1m.dbn.zst",
+            "size": 30478,
+            "hash": "sha256:80f642bce5c18e8f34c8185717288110ad7cdabf814593209fcfe2c51de7083b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251008.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251008.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251009.bbo-1m.dbn.zst",
+            "size": 30566,
+            "hash": "sha256:97f011cfe8e961ac58018c1b1b4c5ff74a80d6cb12fdd34c3255da08eb5d8cc4",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251009.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251009.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251010.bbo-1m.dbn.zst",
+            "size": 34793,
+            "hash": "sha256:b08bcdb4ab04bc71d4655405b4ede1199c47e64832fe963f3479167937db79a1",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251010.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251010.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251013.bbo-1m.dbn.zst",
+            "size": 31435,
+            "hash": "sha256:97f8b7d0cb93671b2ecae35cb0e45e7bed127aa3e54e83950e84824b67e38582",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251013.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251013.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251014.bbo-1m.dbn.zst",
+            "size": 33620,
+            "hash": "sha256:fde5e3a2af58acbeee0135f61f7c3f9cfa14c692aff6a9fa234eb3d2410081c2",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251014.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251014.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251015.bbo-1m.dbn.zst",
+            "size": 32818,
+            "hash": "sha256:964ae6e8d5f435e33b5d0ed1ead8078c94e6d70bf5b8e377dfbaf14927452c8a",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251015.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251015.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251016.bbo-1m.dbn.zst",
+            "size": 33702,
+            "hash": "sha256:1a8ed97d5d49d55c212f29a15a42e8b73483c4576f050cc0a8b49b5c286258ab",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251016.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251016.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251017.bbo-1m.dbn.zst",
+            "size": 32380,
+            "hash": "sha256:44d496efd355710b5f9e7570693aa07cc48ebb31638b1ebd02778a103b39800b",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251017.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251017.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251020.bbo-1m.dbn.zst",
+            "size": 31129,
+            "hash": "sha256:b02b1ed591e214b3d5dea89ee37c6f82fbb2c26614bce53ac63270809ebbd567",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251020.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251020.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251021.bbo-1m.dbn.zst",
+            "size": 30503,
+            "hash": "sha256:b3ba820b4608cf5c938e6e9205beab3f2db9f184f85e69a4dd6993ec46d8df5f",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251021.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251021.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251022.bbo-1m.dbn.zst",
+            "size": 32217,
+            "hash": "sha256:d3f5b5f87d83067c9a379dd7940523e7a3a84e6c8e81bfbd70ff699dc8358766",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251022.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251022.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251023.bbo-1m.dbn.zst",
+            "size": 31568,
+            "hash": "sha256:0ed5ae20fd117a0682336ac9144ed4ad27dad876743446a211387ae08349aa85",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251023.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251023.bbo-1m.dbn.zst"
+            }
+        },
+        {
+            "filename": "xnas-itch-20251024.bbo-1m.dbn.zst",
+            "size": 28414,
+            "hash": "sha256:7b1199f04c8a7f380e64b114401de7a61fa7ae1d994c01b8d37de7f8da53dce9",
+            "urls": {
+                "https": "https://api.databento.com/v0/batch/download/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251024.bbo-1m.dbn.zst",
+                "ftp": "ftp://ftp.databento.com/8MFRU7ES/XNAS-20251026-EPQNU9746N/xnas-itch-20251024.bbo-1m.dbn.zst"
+            }
+        }
+    ]
+}
