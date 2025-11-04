@@ -75,6 +75,18 @@ class DuckDBController:
         );
         """)
 
+        # Checkpoint table to track processed tokens
+        self.con.execute("""
+        CREATE TABLE IF NOT EXISTS checkpoints (
+            token_id      TEXT PRIMARY KEY,
+            market_id     TEXT,
+            processed_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            status        TEXT,      -- 'completed' or 'failed'
+            error_msg     TEXT,
+            num_prices    BIGINT
+        );
+        """)
+
         # Lightweight migration for older DBs that might miss columns
         self._ensure_columns("markets", {
             "theme": "TEXT", "slug": "TEXT", "active": "BOOLEAN", "closed": "BOOLEAN",
@@ -82,6 +94,11 @@ class DuckDBController:
             "conditionId": "TEXT", "liquidityNum": "DOUBLE", "volumeNum": "DOUBLE"
         })
         self._ensure_columns("tokens", {"outcome": "TEXT"})
+        self._ensure_columns("checkpoints", {
+            "processed_at": "TIMESTAMP",
+            "error_msg": "TEXT",
+            "num_prices": "BIGINT"
+        })
 
     def _ensure_columns(self, table: str, cols: Dict[str, str]) -> None:
         info = self.con.execute(f"PRAGMA table_info('{table}')").df()
@@ -272,6 +289,154 @@ class DuckDBController:
     def raw(self, sql: str, params: Optional[Dict[str, Any]] = None) -> pd.DataFrame:
         """Run arbitrary SQL and get a DataFrame back."""
         return self.con.execute(sql, params or {}).df()
+
+    # ---------- Checkpoint Management ----------
+    def backfill_checkpoints_from_existing_data(self):
+        """
+        Backfill checkpoint table with tokens that already have price data.
+        Call this once to mark existing data as processed.
+        """
+        result = self.con.execute("""
+            INSERT INTO checkpoints (token_id, market_id, status, num_prices)
+            SELECT 
+                p.token_id,
+                COALESCE(t.market_id, 'unknown') as market_id,
+                'completed' as status,
+                COUNT(*) as num_prices
+            FROM prices p
+            LEFT JOIN tokens t ON p.token_id = t.token_id
+            WHERE p.token_id NOT IN (SELECT token_id FROM checkpoints)
+            GROUP BY p.token_id, t.market_id
+            ON CONFLICT (token_id) DO NOTHING;
+        """)
+        count = self.con.execute(
+            "SELECT COUNT(*) FROM checkpoints WHERE status = 'completed';"
+        ).fetchone()[0]
+        print(f"✅ Backfilled {count} tokens from existing price data into checkpoints")
+        return count
+
+    def is_token_processed(self, token_id: str, expected_start_ts: int = None, expected_end_ts: int = None) -> bool:
+        """
+        Check if a token has already been successfully processed.
+        
+        If expected_start_ts and expected_end_ts are provided, also verifies
+        that the existing data covers the expected range (within tolerance).
+        """
+        # First check if marked as completed in checkpoints
+        result = self.con.execute(
+            "SELECT COUNT(*) FROM checkpoints WHERE token_id = $token_id AND status = 'completed';",
+            {"token_id": str(token_id)}
+        ).fetchone()
+        
+        if result[0] == 0:
+            return False
+        
+        # If no date range check needed, it's processed
+        if expected_start_ts is None or expected_end_ts is None:
+            return True
+        
+        # Check if existing data covers the expected date range
+        # Allow some tolerance (7 days = 604800 seconds) since markets might not have
+        # started exactly at start_date or ended exactly at end_date
+        tolerance = 7 * 24 * 60 * 60  # 7 days in seconds
+        
+        data_range = self.con.execute("""
+            SELECT 
+                MIN(ts) as min_ts,
+                MAX(ts) as max_ts,
+                COUNT(*) as num_prices
+            FROM prices
+            WHERE token_id = $token_id;
+        """, {"token_id": str(token_id)}).fetchone()
+        
+        if data_range is None or data_range[2] == 0:
+            # No data found, not really processed
+            return False
+        
+        min_ts, max_ts, num_prices = data_range
+        
+        # Check if the data range is reasonably close to expected range
+        # Data should start within tolerance of expected start
+        # Data should end within tolerance of expected end
+        start_ok = (min_ts <= expected_start_ts + tolerance)
+        end_ok = (max_ts >= expected_end_ts - tolerance)
+        
+        if not (start_ok and end_ok):
+            # Data range doesn't match expected - likely incomplete
+            print(f"  ⚠️  Token {str(token_id)[:16]}... has incomplete data:")
+            print(f"      Expected: {expected_start_ts} to {expected_end_ts}")
+            print(f"      Got: {min_ts} to {max_ts}")
+            print(f"      Will re-download to complete.")
+            
+            # Mark as incomplete so it gets reprocessed
+            self.con.execute("""
+                UPDATE checkpoints 
+                SET status = 'incomplete', 
+                    error_msg = 'Date range incomplete, needs reprocessing'
+                WHERE token_id = $token_id;
+            """, {"token_id": str(token_id)})
+            
+            return False
+        
+        return True
+
+    def mark_token_completed(self, token_id: str, market_id: str, num_prices: int):
+        """Mark a token as successfully processed."""
+        self.con.execute("""
+            INSERT INTO checkpoints (token_id, market_id, status, num_prices, processed_at)
+            VALUES ($token_id, $market_id, 'completed', $num_prices, now())
+            ON CONFLICT (token_id) DO UPDATE SET
+                processed_at = now(),
+                status = 'completed',
+                num_prices = $num_prices,
+                error_msg = NULL;
+        """, {
+            "token_id": str(token_id),
+            "market_id": str(market_id),
+            "num_prices": num_prices
+        })
+
+    def mark_token_failed(self, token_id: str, market_id: str, error_msg: str):
+        """Mark a token as failed with error message."""
+        self.con.execute("""
+            INSERT INTO checkpoints (token_id, market_id, status, error_msg, num_prices, processed_at)
+            VALUES ($token_id, $market_id, 'failed', $error_msg, 0, now())
+            ON CONFLICT (token_id) DO UPDATE SET
+                processed_at = now(),
+                status = 'failed',
+                error_msg = $error_msg;
+        """, {
+            "token_id": str(token_id),
+            "market_id": str(market_id),
+            "error_msg": str(error_msg)[:500]  # Limit error message length
+        })
+
+    def get_checkpoint_stats(self) -> dict:
+        """Get statistics about processing progress."""
+        result = self.con.execute("""
+            SELECT 
+                status,
+                COUNT(*) as count,
+                SUM(num_prices) as total_prices
+            FROM checkpoints
+            GROUP BY status;
+        """).df()
+        
+        stats = {
+            'completed': 0,
+            'failed': 0,
+            'incomplete': 0,
+            'total_prices': 0
+        }
+        
+        for _, row in result.iterrows():
+            status = row['status']
+            count = row['count']
+            stats[status] = count
+            if status == 'completed':
+                stats['total_prices'] = row['total_prices'] or 0
+        
+        return stats
 
     # ---------- Maintenance ----------
     def optimize(self):

@@ -64,6 +64,7 @@ class PolymarketData:
     def _theme_regexes(user_themes: Optional[Dict[str, List[str]]] = None) -> Dict[str, re.Pattern]:
         """Default macro themes + user overrides. Each value is a compiled OR regex."""
         defaults: Dict[str, List[str]] = {
+            # Original macro event themes
             "fomc":        [r"\bFOMC\b", r"Federal Reserve", r"\bFed\b", r"rate decision", r"dot ?plot", r"FOMC statement"],
             "cpi":         [r"\bCPI\b", r"Consumer Price Index", r"\binflation\b", r"core CPI"],
             "pce":         [r"\bPCE\b", r"personal consumption expenditures", r"core PCE"],
@@ -74,6 +75,28 @@ class PolymarketData:
             "ecb":         [r"\bECB\b", r"European Central Bank"],
             "boe":         [r"\bBOE\b", r"Bank of England", r"Monetary Policy Committee"],
             "core_inflation":[r"core inflation", r"ex-?food (and|&) energy"],
+            
+            # NEW: Direct market prediction themes
+            "spy":         [r"\bSPY\b", r"S&P 500", r"S&P500", r"\bSPX\b"],
+            "market_direction": [r"stock market", r"\bstocks\b", r"equity market", r"market (up|down|crash|rally|correction)", r"bull market", r"bear market"],
+            "volatility":  [r"\bVIX\b", r"volatility", r"market volatility"],
+            
+            # Corporate & earnings
+            "tech_sector": [r"tech (stocks|sector)", r"FAANG", r"Magnificent 7", r"tech giants", r"technology stocks"],
+            
+            # Geopolitical
+            "geopolitics": [r"trade war", r"tariffs"],
+            "china":       [r"\bChina\b", r"US-China", r"Taiwan", r"Chinese"],
+            
+            # Energy & commodities
+            "commodities": [r"\bgold\b", r"commodity", r"metals", r"silver"],
+            
+            # Government & policy
+            "government":  [r"government shutdown", r"debt ceiling", r"fiscal", r"budget"],
+            
+            # Banking & finance
+            "banking":     [r"\bbank\b", r"financial crisis", r"credit", r"banking sector"],
+            "recession":   [r"recession", r"economic downturn", r"bear market", r"depression"],
         }
         if user_themes:
             for k, words in user_themes.items():

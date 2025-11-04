@@ -23,6 +23,22 @@ def fetchPolymarketData():
     # Get price history for each market
     db = DuckDBController(DuckDBConfig(path="data/research.duckdb"))
 
+    # Backfill checkpoints from any existing data
+    print("Checking for existing data to mark as processed...")
+    db.backfill_checkpoints_from_existing_data()
+
+    # Show checkpoint statistics at start
+    stats = db.get_checkpoint_stats()
+    print("\n" + "="*70)
+    print(f"CHECKPOINT STATUS:")
+    print(f"  ✅ Completed tokens: {stats['completed']}")
+    print(f"  ❌ Failed tokens: {stats['failed']}")
+    if stats.get('incomplete', 0) > 0:
+        print(f"  ⚠️  Incomplete tokens: {stats['incomplete']} (will be re-downloaded)")
+    print(f"  📊 Total prices stored: {stats['total_prices']:,}")
+    print(f"  🔄 Remaining tokens: {len(df) * 2 - stats['completed'] - stats['failed']} (estimated)")
+    print("="*70 + "\n")
+
     # NEW: upsert markets metadata
     if not df.empty:
         try:
@@ -47,6 +63,7 @@ def fetchPolymarketData():
         market_id = row.get('market_id')
         theme = row.get('theme', 'unknown')
         question = row.get('question', 'No question')
+        print("idx = ", idx)
 
         # Get market timing
         start_date = row.get('startDateIso')
@@ -68,8 +85,12 @@ def fetchPolymarketData():
 
         for token_id in tokens:
             if token_id:
-                print(f"Fetching price history for token {token_id} ({question[:50]}...)")
+                # Check if already processed with complete date range
+                if db.is_token_processed(str(token_id), start_ts, end_ts):
+                    print(f"⏭️  Skipping token {token_id} - already processed")
+                    continue
 
+                print(f"Fetching price history for token {token_id} ({question[:50]}...)")
                 try:
                     # Batch the requests if time range is too large
                     total_price_df = pd.DataFrame()
@@ -91,7 +112,7 @@ def fetchPolymarketData():
                                     token_id=str(token_id),
                                     start_ts=current_start,
                                     end_ts=current_end,
-                                    fidelity=10  # 10-minute intervals
+                                    fidelity=1  # 1 minute
                                 )
                                 break  # Success, exit retry loop
                             except Exception as e:
@@ -132,16 +153,30 @@ def fetchPolymarketData():
                         try:
                             db.upsert_prices(total_price_df)
                             print(f"Stored {len(total_price_df)} price points for token {token_id}")
+                            
+                            # Mark as completed in checkpoint
+                            db.mark_token_completed(str(token_id), str(market_id), len(total_price_df))
                         except Exception as e:
                             print(f"Error storing prices for token {token_id}: {e}")
+                            db.mark_token_failed(str(token_id), str(market_id), f"Storage error: {e}")
                     else:
                         print(f"No price data found for token {token_id}")
+                        db.mark_token_completed(str(token_id), str(market_id), 0)
 
                 except Exception as e:
                     print(f"Error fetching price history for token {token_id}: {e}")
+                    db.mark_token_failed(str(token_id), str(market_id), f"Fetch error: {e}")
 
-    # Close database connection
+    # Close database connection and show final stats
+    final_stats = db.get_checkpoint_stats()
     db.close()
+    
+    print("\n" + "="*70)
+    print("FINAL CHECKPOINT STATUS:")
+    print(f"  ✅ Completed tokens: {final_stats['completed']}")
+    print(f"  ❌ Failed tokens: {final_stats['failed']}")
+    print(f"  📊 Total prices stored: {final_stats['total_prices']:,}")
+    print("="*70)
     print("Finished fetching and storing price histories")
 
 def testDuck():
