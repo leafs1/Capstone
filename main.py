@@ -9,13 +9,13 @@ def fetchPolymarketData():
     # Max time delta for API (1,000,000 seconds ≈ 11.6 days)
     MAX_TIME_DELTA = 1755006400 - 1754006400  # 1,000,000 seconds
 
-    # Aggregate everything macro since Jan 1, 2023 (UTC)
+    # Aggregate everything macro since Jan 1, 2025 (UTC)
+    # No limit - will fetch ALL markets matching regex in the date range
     df = pm.get_macro_event_markets(
         start_date="2025-01-01T00:00:00Z",
-        end_date="2025-12-31T23:59:59Z",
+        end_date="2025-11-03T23:59:59Z",
         active=None,   # both live and historical
-        closed=None,   # both live and historical
-        max_pages=30   # increase to sweep more
+        closed=None    # both live and historical
     )
     print(f"Found {len(df)} macro-related markets")
     print(df[["theme","question","startDateIso","endDateIso","closedTime"]].head(100).to_string(index=False))
@@ -64,6 +64,7 @@ def fetchPolymarketData():
         theme = row.get('theme', 'unknown')
         question = row.get('question', 'No question')
         print("idx = ", idx)
+        print(len(df))
 
         # Get market timing
         start_date = row.get('startDateIso')

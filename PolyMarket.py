@@ -62,46 +62,204 @@ class PolymarketData:
 
     @staticmethod
     def _theme_regexes(user_themes: Optional[Dict[str, List[str]]] = None) -> Dict[str, re.Pattern]:
-        """Default macro themes + user overrides. Each value is a compiled OR regex."""
+        """
+        Enhanced macro event themes with precise matching.
+        Returns compiled regex patterns with IGNORECASE and UNICODE flags.
+        
+        IMPORTANT: Patterns are checked in order, so more specific patterns should come first.
+        """
+        FLAGS = re.IGNORECASE | re.UNICODE
+        
         defaults: Dict[str, List[str]] = {
-            # Original macro event themes
-            "fomc":        [r"\bFOMC\b", r"Federal Reserve", r"\bFed\b", r"rate decision", r"dot ?plot", r"FOMC statement"],
-            "cpi":         [r"\bCPI\b", r"Consumer Price Index", r"\binflation\b", r"core CPI"],
-            "pce":         [r"\bPCE\b", r"personal consumption expenditures", r"core PCE"],
-            "payrolls":    [r"nonfarm payrolls", r"\bNFP\b", r"jobs report"],
-            "unemployment":[r"\bunemployment\b", r"\bjobless rate\b", r"U-3"],
-            "gdp":         [r"\bGDP\b", r"gross domestic product"],
-            "rates":       [r"interest rate", r"rate hike", r"rate cut", r"basis points", r"\bbps\b"],
-            "ecb":         [r"\bECB\b", r"European Central Bank"],
-            "boe":         [r"\bBOE\b", r"Bank of England", r"Monetary Policy Committee"],
-            "core_inflation":[r"core inflation", r"ex-?food (and|&) energy"],
+            # === Monetary Policy & Central Banks ===
+            "fomc": [
+                r"\bFOMC\b",
+                r"\bFederal Reserve (?:meeting|decision|announcement|policy|statement)\b",
+                r"\bFed (?:meeting|decision|announcement|policy|statement|minutes)\b",
+                r"\bJerome Powell\b",
+                r"\bFed Chair\b",
+                r"\bFed funds rate\b",
+                r"\bSOFR\b",
+                r"\bdot plot\b",
+                r"\bSummary of Economic Projections\b"
+            ],
+            "ecb": [
+                r"\bECB\b",
+                r"\bEuropean Central Bank\b",
+                r"\bChristine Lagarde\b"
+            ],
+            "boe": [
+                r"\bBank of England\b", 
+                r"\bMPC meeting\b",
+                r"\bAndrew Bailey\b"
+            ],
             
-            # NEW: Direct market prediction themes
-            "spy":         [r"\bSPY\b", r"S&P 500", r"S&P500", r"\bSPX\b"],
-            "market_direction": [r"stock market", r"\bstocks\b", r"equity market", r"market (up|down|crash|rally|correction)", r"bull market", r"bear market"],
-            "volatility":  [r"\bVIX\b", r"volatility", r"market volatility"],
+            # === Inflation Indicators ===
+            "cpi": [
+                r"\bCPI\b(?:\s+(?:data|report|release|print|reading|inflation|number))?",
+                r"\bConsumer Price Index\b",
+                r"\b(?:headline|core)\s+(?:CPI|inflation)\b",
+                r"\binflation\s+(?:report|data|reading|print)\b"
+            ],
+            "pce": [
+                r"\bPCE\b(?:\s+(?:data|report|release|print|reading|inflation))?",
+                r"\bPersonal Consumption Expenditures\b",
+                r"\bcore PCE\b"
+            ],
+            "ppi": [
+                r"\bPPI\b(?:\s+(?:data|report|release|print|reading))?",
+                r"\bProducer Price Index\b"
+            ],
             
-            # Corporate & earnings
-            "tech_sector": [r"tech (stocks|sector)", r"FAANG", r"Magnificent 7", r"tech giants", r"technology stocks"],
+            # === Labor Market ===
+            "labor": [
+                r"\bnonfarm payrolls?\b",
+                r"\bNFP\b(?:\s+(?:data|report|release|print|reading))?",
+                r"\bunemployment rate\b",
+                r"\bjobless claims\b",
+                r"\bJOLTS\b(?:\s+(?:data|report|release))?",
+                r"\bjobs report\b",
+                r"\blabor market\b"
+            ],
             
-            # Geopolitical
-            "geopolitics": [r"trade war", r"tariffs"],
-            "china":       [r"\bChina\b", r"US-China", r"Taiwan", r"Chinese"],
+            # === Growth & Output ===
+            "gdp": [
+                r"\bGDP\s+(?:growth|data|report|release|print|reading|contraction|expansion)\b",
+                r"\bgross domestic product\b",
+                r"\b(?:Q[1-4]|quarter|quarterly)\s+GDP\b",
+                r"\bGDP\s+(?:in\s+)?Q[1-4]\s+\d{4}\b",  # "GDP in Q3 2025"
+                r"\bNegative GDP\b",
+                r"\bGDP contraction\b"
+            ],
+            "ism": [
+                r"\bISM\s+(?:Manufacturing|Services|PMI)\b",
+                r"\bPMI\s+(?:data|report|reading)\b"
+            ],
             
-            # Energy & commodities
-            "commodities": [r"\bgold\b", r"commodity", r"metals", r"silver"],
+            # === Consumer Spending ===
+            "retail_sales": [
+                r"\bretail sales\b(?:\s+(?:data|report|release))?",
+                r"\bcontrol group sales\b"
+            ],
+            "durables": [
+                r"\bdurable goods\b(?:\s+(?:orders|data|report))?",
+                r"\bcore capital goods\b"
+            ],
             
-            # Government & policy
-            "government":  [r"government shutdown", r"debt ceiling", r"fiscal", r"budget"],
+            # === Interest Rates & Fixed Income ===
+            "rates": [
+                r"\binterest rate\s+(?:hike|cut|decision|change)\b",
+                r"\brate\s+(?:hike|cut)\b",
+                r"\b(?:basis points?|bps)\b",
+                r"\byield curve\b",
+                r"\b2s10s\b",
+                r"\bcurve inversion\b",
+                r"\bterm premium\b",
+                r"\bquantitative (?:tightening|easing)\b",
+                r"\bQT\b",
+                r"\bQE\b"
+            ],
+            "treasury": [
+                r"\bT-?(?:bill|note|bond)s?\b",
+                r"\b(?:10|30)-?year(?:\s+treasury)?\b",
+                r"\bUST\b",
+                r"\btreasury\s+(?:auction|yield)\b"
+            ],
             
-            # Banking & finance
-            "banking":     [r"\bbank\b", r"financial crisis", r"credit", r"banking sector"],
-            "recession":   [r"recession", r"economic downturn", r"bear market", r"depression"],
+            # === Equity Markets ===
+            "spy": [
+                r"\bSPY\s+(?:price|close|level|above|below|hit|reach)\b",
+                r"\bS\s*&\s*P\s*500\s+(?:index|close|level|above|below|hit|reach)\b",
+                r"\bSPX\s+(?:close|level|above|below|hit|reach)\b",
+                r"\bE-?mini\s+S\s*&\s*P\b"
+            ],
+            "volatility": [
+                r"\bVIX\s+(?:above|below|close|level|spike)\b",
+                r"\bvolatility\s+(?:index|spike|surge)\b",
+                r"\bimplied\s+volatility\b"
+            ],
+            "market_direction": [
+                r"\bstock\s+market\s+(?:crash|correction|rally|selloff|decline|rise)\b",
+                r"\bequity\s+market\s+(?:crash|correction|rally|selloff)\b",
+                r"\b(?:bull|bear)\s+market\b",
+                r"\bcircuit\s+breaker\b",
+                r"\bmarket\s+halt\b",
+                r"\bDow\s+Jones\b",
+                r"\bNasdaq\s+(?:100|Composite)\b"
+            ],
+            
+            # === Sectors ===
+            "tech_sector": [
+                r"\btech\s+(?:stock|sector|selloff|rally)\b",
+                r"\bFAANG\b",
+                r"\bMagnificent\s+7\b",
+                r"\btechnology\s+sector\b",
+                r"\bsemiconductor\s+(?:stocks?|sector)\b"
+            ],
+            "banking": [
+                r"\bbank(?:ing)?\s+(?:sector|crisis|failure|collapse|run)\b",
+                r"\bregional\s+banks?\b",
+                r"\bfinancial\s+(?:crisis|sector|stability)\b",
+                r"\bSVB\b",
+                r"\bFirst\s+Republic\b",
+                r"\bCredit\s+Suisse\b"
+            ],
+            
+            # === Commodities & Energy ===
+            "energy": [
+                r"\b(?:WTI|Brent)\s+(?:crude|oil)\b",
+                r"\bcrude\s+oil\s+(?:price|barrel)\b",
+                r"\boil\s+price\b",
+                r"\bgasoline\s+price\b",
+                r"\benergy\s+(?:price|sector)\b"
+            ],
+            "commodities": [
+                r"\bgold\s+(?:price|oz|ounce|above|below)\b",
+                r"\bsilver\s+(?:price|oz|ounce)\b",
+                r"\bcopper\s+price\b",
+                r"\bcommodit(?:y|ies)\s+(?:price|market|index)\b"
+            ],
+            
+            # === Foreign Exchange ===
+            "fx": [
+                r"\bUSD(?:/|vs)(?:EUR|JPY|GBP|CHF|CAD|AUD)\b",
+                r"\b(?:Euro|Yen|Pound|Dollar)\s+(?:parity|exchange)\b",
+                r"\bdollar\s+index\b",
+                r"\bDXY\b"
+            ],
+            
+            # === Geopolitics & Trade ===
+            "geopolitics": [
+                r"\btrade\s+war\b",
+                r"\btariff(?:s)?\s+(?:on|against|increase|decrease)\b",
+                r"\bUS-China\s+(?:trade|relations|tensions)\b",
+                r"\bTaiwan\s+(?:invasion|conflict|crisis)\b",
+                r"\beconomic\s+sanctions\b"
+            ],
+            
+            # === Government & Policy ===
+            "government": [
+                r"\bgovernment\s+shutdown\b",
+                r"\bdebt\s+ceiling\b",
+                r"\bfiscal\s+(?:policy|cliff|stimulus)\b",
+                r"\bContinuing\s+Resolution\b",
+                r"\bbudget\s+(?:deficit|surplus|deal)\b"
+            ],
+            
+            # === Economic Conditions ===
+            "recession": [
+                r"\brecession\s+(?:in|by|before)\b",
+                r"\beconomic\s+(?:downturn|contraction)\b",
+                r"\b(?:hard|soft)\s+landing\b",
+                r"\beconomic\s+depression\b"
+            ],
         }
+        
         if user_themes:
             for k, words in user_themes.items():
                 defaults[k] = words  # override or add
-        return {k: re.compile("|".join(words), re.IGNORECASE) for k, words in defaults.items()}
+        
+        return {k: re.compile("|".join(words), FLAGS) for k, words in defaults.items()}
 
     def get_macro_event_markets(
         self,
@@ -110,12 +268,12 @@ class PolymarketData:
         end_date: Optional[str]   = None,  # e.g. "2025-12-31T23:59:59Z"
         active: Optional[bool] = None,     # True for live only; False for inactive; None for all
         closed: Optional[bool] = None,     # True for closed only; None for all
-        max_pages: int = 20,
-        page_size: int = 200,
     ) -> pd.DataFrame:
         """
-        Sweep Gamma markets and return a DataFrame of macro-event markets
+        Sweep ALL Gamma markets in the date range and return a DataFrame of macro-event markets
         matching the given themes (defaults included).
+        
+        Automatically paginate through all available markets with no artificial limits.
         """
         regexes = self._theme_regexes(themes)
         rows: List[Dict[str, Any]] = []
@@ -126,16 +284,27 @@ class PolymarketData:
         ed_min = None
         ed_max = end_date
 
+        # API typically allows up to 100 markets per page
+        page_size = 100
         offset = 0
-        for _ in range(max_pages):
+        page_num = 0
+        
+        # Paginate until we get an empty batch
+        while True:
+            page_num += 1
             batch = self._pull_markets_page(
                 offset=offset, limit=page_size,
                 active=active, closed=closed,
                 start_date_min=sd_min, start_date_max=sd_max,
                 end_date_min=ed_min, end_date_max=ed_max,
             )
-            if not batch:
+            
+            # Stop if no more results
+            if not batch or len(batch) == 0:
+                print(f"Finished pagination at page {page_num-1}, total offset {offset}")
                 break
+            
+            print(f"Page {page_num}: fetched {len(batch)} markets (offset {offset})")
             offset += len(batch)
 
             for m in batch:
